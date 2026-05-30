@@ -2161,22 +2161,29 @@ body {
 @media (max-width: 768px) {
   /* Grand Gateway Split Screen (index.html) */
   .gateway-wrapper {
-    height: 100vh;
+    height: auto;
     min-height: 100vh;
-    overflow: hidden;
+    overflow-y: auto;
   }
   
   .split-container {
     flex-direction: column;
-    height: 100%;
+    height: auto;
+    min-height: 100vh;
     width: 100%;
   }
 
   .gateway-pane {
-    flex: 1;
-    height: 50vh;
-    padding: 2.5rem 1.5rem;
+    width: 100%;
+    min-height: 50vh;
+    height: auto;
+    padding: 3.5rem 1.5rem 3.5rem;
     justify-content: center;
+  }
+
+  /* Pushes content down past the floating absolute header */
+  .gateway-pane.naturals-pane {
+    padding-top: 8rem;
   }
 
   .gateway-pane-title {

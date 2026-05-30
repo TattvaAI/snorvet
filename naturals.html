@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snorvet Naturals | Premium Plant-Backed Human Supplements</title>
+  <meta name="description" content="Discover Snorvet Naturals: clean, organic, and third-party tested dietary supplements designed to support human sleep, immunity, and cognitive focus.">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="theme-naturals">
+
+  <!-- STICKY SITE HEADER -->
+  <header class="site-header" id="site-navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo-link">
+        <img src="images/naturals_logo.jpeg" alt="Snorvet Naturals Logo">
+        <div class="brand-title">SNORVET <span>Naturals</span></div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu-links">
+          <li><a href="#shop" class="nav-link">Shop</a></li>
+          <li><a href="#about" class="nav-link">Our Purity</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="biotech.html" class="switch-brand-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.25rem;">
+              <path d="M19 16v6H5v-6h14m-3-9l-4-4-4 4M12 3v13"></path>
+            </svg>
+            Switch to Biotech (Pets)
+          </a></li>
+        </ul>
+      </nav>
+
+      <!-- Cart Trigger -->
+      <div class="nav-actions">
+        <button class="cart-toggle-btn" id="cart-drawer-toggle" aria-label="Open Cart">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-badge" id="cart-count-badge">0</span>
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-nav-btn" aria-label="Toggle Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="about">
+    <div class="container hero-grid">
+      <div class="hero-content-block">
+        <span class="hero-tag">🌿 100% Pure Plant Formulations</span>
+        <h1 class="hero-title">Elevate your daily vitality with <em>botanical science</em>.</h1>
+        <p class="hero-desc">
+          Inspired by absolute biological purity and third-party laboratory clinical standards. Snorvet Naturals provides premium, non-GMO dietary supplements tailored to empower human restorative sleep, immunity, and cognitive focus.
+        </p>
+        <div class="hero-ctas">
+          <a href="#shop" class="btn btn-primary">Shop Collection</a>
+          <a href="#reviews" class="btn btn-secondary">Read Reviews</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-blob"></div>
+        <div class="hero-image-container">
+          <img src="images/product2.jpeg" alt="Snorvet Naturals Premium Superfood Greens">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BADGES BAR -->
+  <section class="trust-badges-section">
+    <div class="container trust-badges-grid">
+      <!-- Badge 1 -->
+      <div class="trust-badge-card">
+        <div class="trust-badge-icon">🌿</div>
+        <div class="trust-badge-info">
+          <div class="trust-badge-title">100% Plant-Based</div>
+          <div class="trust-badge-desc">Zero synthetic fillers. Completely clean and vegan.</div>
+        </div>
+      </div>
+      <!-- Badge 2 -->
+      <div class="trust-badge-card">
+        <div class="trust-badge-icon">🔬</div>
+        <div class="trust-badge-info">
+          <div class="trust-badge-title">Third-Party Tested</div>
+          <div class="trust-badge-desc">Rigorous lab verification for absolute biological potency.</div>
+        </div>
+      </div>
+      <!-- Badge 3 -->
+      <div class="trust-badge-card">
+        <div class="trust-badge-icon">🚫</div>
+        <div class="trust-badge-info">
+          <div class="trust-badge-title">Non-GMO & Organic</div>
+          <div class="trust-badge-desc">Sourced responsibly from sustainable organic growers.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT PORTFOLIO SHOWCASE -->
+  <section class="products-section container" id="shop" style="padding: 6rem 0 3rem;">
+    <div class="section-title-wrapper">
+      <span class="section-subtitle">Premium Supplement Suite</span>
+      <h2 class="section-title">Clean Daily Formulations</h2>
+    </div>
+
+    <div class="products-grid" id="naturals-products-list">
+      <!-- Product Card 1 -->
+      <article class="product-card" data-product-id="nat-1" data-product-title="Snorvet Naturals - Rest & Restore" data-product-price="1299" data-product-img="images/product1.jpeg">
+        <span class="product-badge">Best Seller</span>
+        <div class="product-media" onclick="openProductQuickView('nat-1')">
+          <img src="images/product1.jpeg" alt="Rest & Restore Adaptogen Bottle">
+        </div>
+        <div class="product-details">
+          <div class="product-rating">
+            <span class="review-stars">★ ★ ★ ★ ★</span>
+            <span class="product-rating-count">(142 reviews)</span>
+          </div>
+          <h3 class="product-card-title" onclick="openProductQuickView('nat-1')">Rest & Restore</h3>
+          <p class="product-card-desc">Premium botanical blend of Ashwagandha, L-Theanine, and magnesium to promote deep restorative sleep and cortisol recovery.</p>
+          <div class="product-price-row">
+            <span class="product-price-current">₹1,299</span>
+            <span class="product-price-old">₹1,599</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn-card-add" onclick="addItemToCart('nat-1')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add To Cart
+            </button>
+            <a href="https://www.flipkart.com/search?q=snorvet+naturals+rest+restore" target="_blank" rel="noopener noreferrer" class="btn-card-flipkart">
+              Buy On Flipkart
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product Card 2 -->
+      <article class="product-card" data-product-id="nat-2" data-product-title="Snorvet Naturals - Daily Flora-Greens" data-product-price="1499" data-product-img="images/product2.jpeg">
+        <span class="product-badge">Antioxidant Boost</span>
+        <div class="product-media" onclick="openProductQuickView('nat-2')">
+          <img src="images/product2.jpeg" alt="Daily Flora-Greens Superfood Powder">
+        </div>
+        <div class="product-details">
+          <div class="product-rating">
+            <span class="review-stars">★ ★ ★ ★ ★</span>
+            <span class="product-rating-count">(98 reviews)</span>
+          </div>
+          <h3 class="product-card-title" onclick="openProductQuickView('nat-2')">Daily Flora-Greens</h3>
+          <p class="product-card-desc">An organic daily greens powder containing alkaline spirulina, prebiotic inulin, and vital micronutrients for holistic wellness.</p>
+          <div class="product-price-row">
+            <span class="product-price-current">₹1,499</span>
+            <span class="product-price-old">₹1,899</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn-card-add" onclick="addItemToCart('nat-2')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add To Cart
+            </button>
+            <a href="https://www.flipkart.com/search?q=snorvet+naturals+greens" target="_blank" rel="noopener noreferrer" class="btn-card-flipkart">
+              Buy On Flipkart
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product Card 3 -->
+      <article class="product-card" data-product-id="nat-3" data-product-title="Snorvet Naturals - Mind Shield" data-product-price="1699" data-product-img="images/product3.jpeg">
+        <span class="product-badge">New Arrival</span>
+        <div class="product-media" onclick="openProductQuickView('nat-3')">
+          <img src="images/product3.jpeg" alt="Mind Shield Focus Supplement">
+        </div>
+        <div class="product-details">
+          <div class="product-rating">
+            <span class="review-stars">★ ★ ★ ★ ★</span>
+            <span class="product-rating-count">(115 reviews)</span>
+          </div>
+          <h3 class="product-card-title" onclick="openProductQuickView('nat-3')">Mind Shield</h3>
+          <p class="product-card-desc">Advanced cognitive aid with pure Lion's Mane mushroom extract and Rhodiola to reduce mental fatigue and improve concentration.</p>
+          <div class="product-price-row">
+            <span class="product-price-current">₹1,699</span>
+            <span class="product-price-old">₹1,999</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn-card-add" onclick="addItemToCart('nat-3')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add To Cart
+            </button>
+            <a href="https://www.flipkart.com/search?q=snorvet+naturals+mind+shield" target="_blank" rel="noopener noreferrer" class="btn-card-flipkart">
+              Buy On Flipkart
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ISOLATED CUSTOMER REVIEWS MODULE -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="reviews-grid">
+        
+        <!-- Left Column: Aggregated Reviews Summary & Submission Form -->
+        <div class="reviews-summary-card">
+          <span class="section-subtitle">Real Customer Purity Feedback</span>
+          <h3 class="reviews-summary-title">Supplement Ratings</h3>
+          <div class="reviews-score-block">
+            <div class="reviews-score-big" id="overall-rating-number">4.9</div>
+            <div>
+              <div class="reviews-score-stars">★ ★ ★ ★ ★</div>
+              <div class="reviews-score-sub" id="overall-reviews-count">Based on 145 reviews</div>
+            </div>
+          </div>
+
+          <!-- Review Submission Form -->
+          <form class="review-form" id="new-review-form">
+            <h4 class="review-form-title">Leave a Verified Review</h4>
+            <div class="form-group">
+              <label class="form-label" for="review-author">Your Full Name</label>
+              <input type="text" class="form-input" id="review-author" placeholder="e.g. Sarah Jenkins" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="review-title">Review Headline</label>
+              <input type="text" class="form-input" id="review-title" placeholder="e.g. Life changing supplement!" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Product Rating</label>
+              <div class="star-selector">
+                <input type="radio" id="star5" name="review-stars-val" value="5" checked><label for="star5" title="5 stars">★</label>
+                <input type="radio" id="star4" name="review-stars-val" value="4"><label for="star4" title="4 stars">★</label>
+                <input type="radio" id="star3" name="review-stars-val" value="3"><label for="star3" title="3 stars">★</label>
+                <input type="radio" id="star2" name="review-stars-val" value="2"><label for="star2" title="2 stars">★</label>
+                <input type="radio" id="star1" name="review-stars-val" value="1"><label for="star1" title="1 star">★</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="review-content">Your Review Comments</label>
+              <textarea class="form-input" id="review-content" rows="4" placeholder="Detail your experience with Snorvet Naturals purity and effectiveness..." required style="resize: none;"></textarea>
+            </div>
+            <button type="submit" class="btn-submit-review">Publish Verified Review</button>
+          </form>
+        </div>
+
+        <!-- Right Column: Live Feed of Customer Reviews -->
+        <div class="reviews-feed-container" id="reviews-feed-block">
+          <!-- Dynamically populated via JS -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DEDICATED BRAND FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="footer-brand-title">SNORVET <span>Naturals</span></div>
+          <p class="footer-brand-desc">Elite plant-backed healthcare formulations for human wellness. Purity, honesty, and verified laboratory results at our core.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-icon" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" class="footer-social-icon" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" class="footer-social-icon" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-nav-title">Naturals Suite</h4>
+          <ul class="footer-nav-links">
+            <li><a href="#shop" class="footer-nav-link">Rest & Restore</a></li>
+            <li><a href="#shop" class="footer-nav-link">Daily Flora-Greens</a></li>
+            <li><a href="#shop" class="footer-nav-link">Mind Shield</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-nav-title">Corporate Portal</h4>
+          <ul class="footer-nav-links">
+            <li><a href="index.html" class="footer-nav-link">Gateway Split</a></li>
+            <li><a href="#about" class="footer-nav-link">Purity Standards</a></li>
+            <li><a href="biotech.html" class="footer-nav-link" style="color: #38BDF8; font-weight: 600;">Biotech Pet Care</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-nav-title">Customer Support</h4>
+          <ul class="footer-nav-links">
+            <li><a href="tel:+18005556288" class="footer-nav-link">📞 +1 (800) 555-NATURALS</a></li>
+            <li><a href="#" class="footer-nav-link">support@snorvetnaturals.com</a></li>
+            <li><a href="#" class="footer-nav-link">Ingredient Audits</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- HIGHLY IMPORTANT LEGAL DISCLAIMER CARD -->
+      <div class="footer-disclaimer-card">
+        <span class="disclaimer-badge">Regulatory Compliance Notice</span>
+        <p>
+          <strong>FDA Legal Disclaimer:</strong> The dietary supplement products and claims listed across the Snorvet Naturals wellness track have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any medical condition or chronic disease. Daily values and nutritional parameters may vary. Please consult a licensed physician before starting any adaptogen wellness protocol. Made in audited organic environments.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Snorvet Inc. All rights reserved. Snorvet Naturals division.</div>
+        <div>Designed with premium clinical standards inspired by rediclinic.com.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DYNAMIC MODAL QUICK VIEW -->
+  <div class="modal-backdrop" id="quick-view-backdrop">
+    <div class="modal-wrapper" id="quick-view-wrapper">
+      <button class="modal-close-btn" onclick="closeProductQuickView()" aria-label="Close modal">✕</button>
+      <div class="modal-grid">
+        <div class="modal-media">
+          <img id="modal-product-img" src="" alt="Product view">
+        </div>
+        <div class="modal-info-panel">
+          <h3 class="modal-title" id="modal-product-title">Product Title</h3>
+          <div class="modal-meta-row">
+            <span class="review-stars">★ ★ ★ ★ ★</span>
+            <span class="product-price-current" id="modal-product-price">₹0</span>
+          </div>
+          <p class="modal-desc" id="modal-product-desc">Detailed descriptions</p>
+          
+          <table class="modal-specs-table">
+            <tbody>
+              <tr>
+                <td class="modal-specs-label">Recommended Usage</td>
+                <td class="modal-specs-val" id="modal-product-usage">Dosage info</td>
+              </tr>
+              <tr>
+                <td class="modal-specs-label">Form Factor</td>
+                <td class="modal-specs-val" id="modal-product-form">Form</td>
+              </tr>
+              <tr>
+                <td class="modal-specs-label">Key Active Complex</td>
+                <td class="modal-specs-val" id="modal-product-ingredients">Active elements</td>
+              </tr>
+              <tr>
+                <td class="modal-specs-label">Serving Size</td>
+                <td class="modal-specs-val" id="modal-product-supply">30 servings</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="product-actions" style="margin-top: auto;">
+            <button class="btn-card-add" id="modal-add-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Shopping Cart
+            </button>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-card-flipkart" id="modal-flipkart-btn">
+              Buy On Flipkart
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOPPING CART SLIDE OUT DRAWER -->
+  <div class="drawer-backdrop" id="cart-drawer-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer-panel">
+    <div class="drawer-header">
+      <div class="drawer-title">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        Your Cart <span id="cart-drawer-title-count">0</span>
+      </div>
+      <button class="drawer-close-btn" id="cart-drawer-close" aria-label="Close cart">✕</button>
+    </div>
+
+    <!-- Scrollable Items Area -->
+    <div class="cart-items-feed" id="cart-drawer-items-list">
+      <!-- Populated via Javascript -->
+    </div>
+
+    <!-- Cart Checkout Box -->
+    <div class="drawer-footer">
+      <div class="cart-summary-row">
+        <span>Cart Subtotal</span>
+        <span class="cart-summary-total" id="cart-drawer-total-price">₹0</span>
+      </div>
+      <div class="cart-checkout-actions">
+        <button class="btn btn-primary" onclick="proceedToCheckout()" style="width: 100%;">
+          Proceed To Secure Checkout
+        </button>
+        <a href="https://www.flipkart.com" target="_blank" rel="noopener noreferrer" class="btn-card-flipkart" style="text-align: center;">
+          Buy Entire Bundle on Flipkart
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- INTERACTIVE WHATSAPP FLOATING MODULE -->
+  <div class="whatsapp-widget-container" id="whatsapp-widget">
+    <!-- Chat popup drawer -->
+    <div class="whatsapp-chat-box">
+      <div class="whatsapp-chat-header">
+        <div class="whatsapp-agent-avatar">
+          <img src="images/naturals_logo.jpeg" alt="Snorvet Naturals Wellness Guide">
+          <span class="whatsapp-agent-online-dot"></span>
+        </div>
+        <div class="whatsapp-agent-details">
+          <span class="whatsapp-agent-name">Snorvet Wellness Guide</span>
+          <span class="whatsapp-agent-status">Replies in under 2 minutes</span>
+        </div>
+      </div>
+      
+      <!-- Messages thread -->
+      <div class="whatsapp-chat-body" id="whatsapp-message-area">
+        <div class="whatsapp-msg">
+          Hello! 🌿 Thanks for visiting Snorvet Naturals. I can help you pick the right adaptation supplement or provide Flipkart marketplace checkout questions. What are you looking to achieve today?
+          <span class="whatsapp-msg-time" id="whatsapp-intro-time">12:30 PM</span>
+        </div>
+      </div>
+      
+      <!-- Input bar -->
+      <div class="whatsapp-chat-footer">
+        <input type="text" class="whatsapp-chat-input" id="whatsapp-input-field" placeholder="Type a message..." aria-label="Type message for WhatsApp Support">
+        <button class="whatsapp-chat-send-btn" onclick="sendWhatsAppMessage()" aria-label="Send message to WhatsApp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Floating Bubble Button -->
+    <button class="whatsapp-badge-pulse" id="whatsapp-trigger-btn" aria-label="Open support chat">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- SCRIPTING CORE FOR NATURALS ECOSYSTEM -->
+  <script>
+    // --- Products specifications database ---
+    const PRODUCTS_DB = {
+      'nat-1': {
+        title: "Snorvet Naturals - Rest & Restore",
+        price: 1299,
+        originalPrice: 1599,
+        img: "images/product1.jpeg",
+        desc: "Rest & Restore is a professional adaptogenic sleeping formula. Formulated with clinical concentrations of Organic Ashwagandha, L-Theanine, and highly bioavailable Magnesium Bisglycinate, it supports natural circadian cycles, calms active neurotransmitters, and blocks cortisol surges so you wake up refreshed.",
+        usage: "Take 2 vegan capsules with water approximately 45-60 minutes before scheduled bedtime.",
+        form: "100% Plant-Based Vegan Capsules",
+        ingredients: "Organic Ashwagandha (600mg), Chamomile Extract (150mg), L-Theanine (200mg), Magnesium Bisglycinate (100mg)",
+        supply: "30-Day Recovery supply (60 capsules)",
+        flipkartUrl: "https://www.flipkart.com/search?q=snorvet+naturals+rest+restore"
+      },
+      'nat-2': {
+        title: "Snorvet Naturals - Daily Flora-Greens",
+        price: 1499,
+        originalPrice: 1899,
+        img: "images/product2.jpeg",
+        desc: "Daily Flora-Greens is an organic superfood concentrate loaded with chlorophyll, minerals, and plant fibers. Integrating alkaline spirulina, prebiotic inulin, organic barley grass, and pure botanical immunizers, it aids healthy digestion, balances gut microflora, and fuels all-day clean physical energy without stimulants.",
+        usage: "Stir 1 level scoop (8g) into 250ml of cold organic juice, water, or breakfast blend every morning.",
+        form: "Fine Soluble Green Powder",
+        ingredients: "Organic Spirulina, Prebiotic Agave Inulin, Organic Barley Grass, Vitamin C complex",
+        supply: "30-Servings daily canister (240g)",
+        flipkartUrl: "https://www.flipkart.com/search?q=snorvet+naturals+greens"
+      },
+      'nat-3': {
+        title: "Snorvet Naturals - Mind Shield",
+        price: 1699,
+        originalPrice: 1999,
+        img: "images/product3.jpeg",
+        desc: "Mind Shield is an premium nootropic formulation designed to optimize neuro-health and eliminate day-to-day fatigue. Packed with cold-extracted Lion's Mane mushroom matrix, Ginkgo Biloba, and Siberian Rhodiola Rosea adaptogens, it aids memory retrieval, enhances deep focus work, and supports brain wellness.",
+        usage: "Take 1 to 2 capsules in the morning alongside healthy fats or light breakfast.",
+        form: "Non-GMO Plant Capsules",
+        ingredients: "Pure Lion's Mane Extract (500mg), Rhodiola Rosea (200mg), Ginkgo Biloba (120mg), Methylcobalamin B12",
+        supply: "30-Day Cognitive supply (60 capsules)",
+        flipkartUrl: "https://www.flipkart.com/search?q=snorvet+naturals+mind+shield"
+      }
+    };
+
+    // --- Localized Reviews Engine (Isolated to Human Track) ---
+    const PRESET_REVIEWS = [
+      {
+        author: "Amelia Harris",
+        title: "The Rest & Restore adapter is a game-changer!",
+        stars: 5,
+        text: "I've been taking it every night for two weeks. My sleep quality has improved dramatically, and I wake up feeling completely refreshed. No grogginess at all! Absolute quality.",
+        date: "2026-05-18",
+        verified: true
+      },
+      {
+        author: "Dr. Julian Carter (MD)",
+        title: "Rigorous third-party testing delivers on purity",
+        stars: 5,
+        text: "As a holistic practitioner, I look for third-party clinical testing first. Snorvet Naturals delivers on high botanical integrity. The Daily Flora-Greens formulation has a very well-rounded profile of trace nutrients.",
+        date: "2026-05-02",
+        verified: true
+      },
+      {
+        author: "Marcus Vance",
+        title: "Organic focus without jitters",
+        stars: 4,
+        text: "Really high-quality organic ingredients. The Mind Shield gives a clean cognitive focus without any nervous jitters. Packaging is gorgeous too, fits the premium health aesthetic.",
+        date: "2026-04-20",
+        verified: true
+      }
+    ];
+
+    let reviewsList = [];
+
+    function initializeReviews() {
+      const stored = localStorage.getItem('snorvet_naturals_reviews');
+      if (stored) {
+        reviewsList = JSON.parse(stored);
+      } else {
+        reviewsList = [...PRESET_REVIEWS];
+        localStorage.setItem('snorvet_naturals_reviews', JSON.stringify(reviewsList));
+      }
+      renderReviews();
+    }
+
+    function renderReviews() {
+      const feed = document.getElementById('reviews-feed-block');
+      feed.innerHTML = '';
+      
+      reviewsList.forEach(review => {
+        const item = document.createElement('div');
+        item.className = 'review-item';
+        
+        let starsStr = '';
+        for (let i = 0; i < 5; i++) {
+          starsStr += i < review.stars ? '★ ' : '☆ ';
+        }
+
+        const dateFormatted = new Date(review.date).toLocaleDateString('en-US', {
+          year: 'numeric', month: 'long', day: 'numeric'
+        });
+
+        item.innerHTML = `
+          <div class="review-item-header">
+            <div class="review-user-info">
+              <div class="review-avatar">${review.author.charAt(0)}</div>
+              <div>
+                <div class="review-user-name">${review.author}</div>
+                ${review.verified ? `
+                  <div class="review-badge-verified">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    Verified Customer
+                  </div>
+                ` : ''}
+              </div>
+            </div>
+            <div>
+              <div class="review-stars">${starsStr}</div>
+              <span class="review-date">${dateFormatted}</span>
+            </div>
+          </div>
+          <h4 class="review-title">${review.title}</h4>
+          <p class="review-text">${review.text}</p>
+        `;
+        feed.appendChild(item);
+      });
+
+      // Update Aggregated Totals
+      const totalCount = reviewsList.length;
+      const avg = (reviewsList.reduce((acc, curr) => acc + curr.stars, 0) / totalCount).toFixed(1);
+      
+      document.getElementById('overall-rating-number').innerText = avg;
+      document.getElementById('overall-reviews-count').innerText = `Based on ${totalCount} reviews`;
+    }
+
+    // Submit new review
+    document.getElementById('new-review-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const author = document.getElementById('review-author').value.trim();
+      const title = document.getElementById('review-title').value.trim();
+      const text = document.getElementById('review-content').value.trim();
+      
+      const starsValInput = document.querySelector('input[name="review-stars-val"]:checked');
+      const stars = starsValInput ? parseInt(starsValInput.value) : 5;
+
+      const newRev = {
+        author,
+        title,
+        stars,
+        text,
+        date: new Date().toISOString().split('T')[0],
+        verified: true
+      };
+
+      reviewsList.unshift(newRev);
+      localStorage.setItem('snorvet_naturals_reviews', JSON.stringify(reviewsList));
+      renderReviews();
+
+      // Reset form
+      document.getElementById('new-review-form').reset();
+      alert("Thank you! Your verified supplement review has been published successfully.");
+    });
+
+
+    // --- Shopping Cart Engine ---
+    let cart = [];
+
+    function initializeCart() {
+      const stored = localStorage.getItem('snorvet_naturals_cart');
+      if (stored) {
+        cart = JSON.parse(stored);
+      }
+      updateCartUI();
+    }
+
+    function saveCart() {
+      localStorage.setItem('snorvet_naturals_cart', JSON.stringify(cart));
+    }
+
+    function addItemToCart(productId) {
+      const dbItem = PRODUCTS_DB[productId];
+      if (!dbItem) return;
+
+      const existing = cart.find(item => item.id === productId);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({
+          id: productId,
+          title: dbItem.title,
+          price: dbItem.price,
+          img: dbItem.img,
+          qty: 1
+        });
+      }
+      saveCart();
+      updateCartUI();
+      openCartDrawer();
+    }
+
+    function updateCartItemQty(productId, delta) {
+      const item = cart.find(item => item.id === productId);
+      if (!item) return;
+
+      item.qty += delta;
+      if (item.qty <= 0) {
+        cart = cart.filter(it => it.id !== productId);
+      }
+      saveCart();
+      updateCartUI();
+    }
+
+    function removeCartItem(productId) {
+      cart = cart.filter(item => item.id !== productId);
+      saveCart();
+      updateCartUI();
+    }
+
+    function updateCartUI() {
+      const totalCount = cart.reduce((acc, curr) => acc + curr.qty, 0);
+      document.getElementById('cart-count-badge').innerText = totalCount;
+      document.getElementById('cart-drawer-title-count').innerText = `(${totalCount})`;
+
+      const listContainer = document.getElementById('cart-drawer-items-list');
+      listContainer.innerHTML = '';
+
+      if (cart.length === 0) {
+        listContainer.innerHTML = `
+          <div class="cart-empty-state">
+            <span class="cart-empty-icon">🛒</span>
+            <div style="font-weight: 700; font-family: var(--font-display);">Your cart is empty</div>
+            <div style="font-size:0.8rem; opacity:0.8;">Explore our adaptogens & plant superfoods.</div>
+          </div>
+        `;
+        document.getElementById('cart-drawer-total-price').innerText = '₹0';
+        return;
+      }
+
+      let subtotal = 0;
+      cart.forEach(item => {
+        const cost = item.price * item.qty;
+        subtotal += cost;
+
+        const row = document.createElement('div');
+        row.className = 'cart-item';
+        row.innerHTML = `
+          <img src="${item.img}" class="cart-item-img" alt="${item.title}">
+          <div class="cart-item-details">
+            <div class="cart-item-title">${item.title}</div>
+            <div class="cart-item-price">₹${item.price.toLocaleString('en-IN')}</div>
+            <div class="cart-item-qty-row">
+              <div class="cart-qty-selectors">
+                <button class="cart-qty-btn" onclick="updateCartItemQty('${item.id}', -1)">-</button>
+                <span class="cart-qty-val">${item.qty}</span>
+                <button class="cart-qty-btn" onclick="updateCartItemQty('${item.id}', 1)">+</button>
+              </div>
+              <button class="cart-remove-btn" onclick="removeCartItem('${item.id}')">Remove</button>
+            </div>
+          </div>
+        `;
+        listContainer.appendChild(row);
+      });
+
+      document.getElementById('cart-drawer-total-price').innerText = `₹${subtotal.toLocaleString('en-IN')}`;
+    }
+
+    function openCartDrawer() {
+      document.getElementById('cart-drawer-backdrop').classList.add('active');
+      document.getElementById('cart-drawer-panel').classList.add('active');
+    }
+
+    function closeCartDrawer() {
+      document.getElementById('cart-drawer-backdrop').classList.remove('active');
+      document.getElementById('cart-drawer-panel').classList.remove('active');
+    }
+
+    function proceedToCheckout() {
+      if (cart.length === 0) {
+        alert("Your shopping cart is empty.");
+        return;
+      }
+      const orderNum = Math.floor(100000 + Math.random() * 900000);
+      alert(`Checkout Successful!\nOrder Ref: SN-NAT-${orderNum}\nThank you for choosing Snorvet Naturals for your premium health requirements.`);
+      cart = [];
+      saveCart();
+      updateCartUI();
+      closeCartDrawer();
+    }
+
+
+    // --- Product Quick View Modal ---
+    function openProductQuickView(productId) {
+      const p = PRODUCTS_DB[productId];
+      if (!p) return;
+
+      document.getElementById('modal-product-img').src = p.img;
+      document.getElementById('modal-product-img').alt = p.title;
+      document.getElementById('modal-product-title').innerText = p.title;
+      document.getElementById('modal-product-price').innerText = `₹${p.price.toLocaleString('en-IN')}`;
+      document.getElementById('modal-product-desc').innerText = p.desc;
+      document.getElementById('modal-product-usage').innerText = p.usage;
+      document.getElementById('modal-product-form').innerText = p.form;
+      document.getElementById('modal-product-ingredients').innerText = p.ingredients;
+      document.getElementById('modal-product-supply').innerText = p.supply;
+
+      // Bind actions in modal
+      document.getElementById('modal-add-btn').setAttribute('onclick', `addItemToCart('${productId}')`);
+      document.getElementById('modal-flipkart-btn').setAttribute('href', p.flipkartUrl);
+
+      document.getElementById('quick-view-backdrop').classList.add('active');
+    }
+
+    function closeProductQuickView() {
+      document.getElementById('quick-view-backdrop').classList.remove('active');
+    }
+
+
+    // --- Floating WhatsApp support chat logic ---
+    const waWidget = document.getElementById('whatsapp-widget');
+    const waTrigger = document.getElementById('whatsapp-trigger-btn');
+    const waInput = document.getElementById('whatsapp-input-field');
+    const waMessageArea = document.getElementById('whatsapp-message-area');
+
+    waTrigger.addEventListener('click', () => {
+      waWidget.classList.toggle('active');
+      
+      // Update stamp time to current
+      const now = new Date();
+      const options = { hour: '2-digit', minute: '2-digit' };
+      document.getElementById('whatsapp-intro-time').innerText = now.toLocaleTimeString([], options);
+    });
+
+    function sendWhatsAppMessage() {
+      const msgText = waInput.value.trim();
+      if (!msgText) return;
+
+      // Add to UI
+      const userMsg = document.createElement('div');
+      userMsg.className = 'whatsapp-msg';
+      userMsg.style.backgroundColor = '#DCF8C6';
+      userMsg.style.alignSelf = 'flex-end';
+      userMsg.style.borderRadius = '12px 0 12px 12px';
+      
+      // Remove default pointer pseudo-elements for users
+      userMsg.style.setProperty('--user-pseudo-display', 'none'); 
+
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+      userMsg.innerHTML = `
+        ${msgText}
+        <span class="whatsapp-msg-time">${timeStr}</span>
+      `;
+      
+      // Adjust alignment overrides
+      userMsg.style.marginLeft = 'auto';
+      userMsg.style.marginRight = '0';
+      userMsg.style.maxWidth = '85%';
+      
+      waMessageArea.appendChild(userMsg);
+      waInput.value = '';
+
+      // Scroll thread down
+      waMessageArea.scrollTop = waMessageArea.scrollHeight;
+
+      // Simulate typing & launch WhatsApp redirection
+      setTimeout(() => {
+        const supportNum = "919876543210"; // Placeholder whatsapp business number
+        const encodedText = encodeURIComponent(`Hi Snorvet support! I have a question regarding Naturals products: "${msgText}"`);
+        const targetUrl = `https://wa.me/${supportNum}?text=${encodedText}`;
+        
+        // Open WA API in a new window
+        window.open(targetUrl, '_blank');
+      }, 1000);
+    }
+
+    // Capture Enter key on WhatsApp Input
+    waInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        sendWhatsAppMessage();
+      }
+    });
+
+
+    // --- Document Event Listeners ---
+    document.addEventListener("DOMContentLoaded", () => {
+      // Navbar scroll effect
+      window.addEventListener('scroll', () => {
+        const nav = document.getElementById('site-navbar');
+        if (window.scrollY > 20) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      });
+
+      // Cart panel close / toggle
+      document.getElementById('cart-drawer-toggle').addEventListener('click', openCartDrawer);
+      document.getElementById('cart-drawer-close').addEventListener('click', closeCartDrawer);
+      document.getElementById('cart-drawer-backdrop').addEventListener('click', closeCartDrawer);
+
+      // Close modals when clicking backdrop
+      document.getElementById('quick-view-backdrop').addEventListener('click', (e) => {
+        if (e.target.id === 'quick-view-backdrop') {
+          closeProductQuickView();
+        }
+      });
+
+      // Mobile navbar menu toggle
+      const mobileNavBtn = document.getElementById('mobile-nav-btn');
+      const menuLinks = document.getElementById('nav-menu-links');
+      
+      mobileNavBtn.addEventListener('click', () => {
+        menuLinks.style.display = menuLinks.style.display === 'flex' ? 'none' : 'flex';
+        menuLinks.style.flexDirection = 'column';
+        menuLinks.style.position = 'absolute';
+        menuLinks.style.top = '80px';
+        menuLinks.style.left = '0';
+        menuLinks.style.width = '100%';
+        menuLinks.style.backgroundColor = '#FFFFFF';
+        menuLinks.style.padding = '1.5rem 2rem';
+        menuLinks.style.borderBottom = '1px solid var(--color-border)';
+        menuLinks.style.gap = '1.25rem';
+        menuLinks.style.boxShadow = '0 10px 25px rgba(0,0,0,0.05)';
+      });
+
+      // Initiations
+      initializeReviews();
+      initializeCart();
+    });
+  </script>
+
+</body>
+</html>

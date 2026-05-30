@@ -2159,35 +2159,82 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* Grand Gateway Split Screen (index.html) */
+  /* Grand Gateway Split Screen (index.html) - Force Side-by-Side Horizontal */
   .gateway-wrapper {
-    height: auto;
+    height: 100vh;
     min-height: 100vh;
-    overflow-y: auto;
+    overflow: hidden; /* Avoid scroll on homepage */
   }
   
   .split-container {
-    flex-direction: column;
-    height: auto;
-    min-height: 100vh;
+    flex-direction: row !important; /* Force side-by-side horizontal flow! */
+    height: 100vh;
     width: 100%;
   }
 
   .gateway-pane {
-    width: 100%;
-    min-height: 50vh;
-    height: auto;
-    padding: 3.5rem 1.5rem 3.5rem;
+    width: 50% !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
+    padding: 7rem 0.5rem 2rem !important; /* Breathing room under floating header */
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   /* Pushes content down past the floating absolute header */
   .gateway-pane.naturals-pane {
-    padding-top: 8rem;
+    padding-top: 7rem !important;
+  }
+
+  .gateway-badge {
+    font-size: 0.65rem !important;
+    padding: 0.35rem 0.75rem !important;
+    letter-spacing: 0.1em !important;
+    margin-bottom: 0.5rem !important;
   }
 
   .gateway-pane-title {
-    font-size: 2.25rem;
+    font-size: 1.45rem !important; /* Beautifully scaled for narrow columns */
+    line-height: 1.25 !important;
+  }
+  
+  .gateway-pane-title strong {
+    font-size: 1.65rem !important;
+    display: block !important;
+  }
+
+  /* Hide the description on mobile to keep the side-by-side columns clean */
+  .gateway-desc {
+    display: none !important;
+  }
+
+  .gateway-btn {
+    padding: 0.65rem 1.1rem !important; /* Compact capsule buttons */
+    font-size: 0.75rem !important;
+    gap: 0.4rem !important;
+    letter-spacing: 0.05em !important;
+    width: auto !important;
+    max-width: 95% !important;
+    white-space: nowrap !important;
+  }
+  
+  .gateway-btn svg {
+    width: 14px !important;
+    height: 14px !important;
+  }
+  
+  .gateway-header {
+    padding: 1.25rem 1rem !important;
+  }
+  
+  .gateway-logo {
+    font-size: 1.65rem !important;
+  }
+  
+  .gateway-logo img {
+    height: 32px !important;
   }
 
   .gateway-desc {

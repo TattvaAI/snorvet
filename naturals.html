@@ -881,17 +881,7 @@
       const menuLinks = document.getElementById('nav-menu-links');
       
       mobileNavBtn.addEventListener('click', () => {
-        menuLinks.style.display = menuLinks.style.display === 'flex' ? 'none' : 'flex';
-        menuLinks.style.flexDirection = 'column';
-        menuLinks.style.position = 'absolute';
-        menuLinks.style.top = '80px';
-        menuLinks.style.left = '0';
-        menuLinks.style.width = '100%';
-        menuLinks.style.backgroundColor = '#FFFFFF';
-        menuLinks.style.padding = '1.5rem 2rem';
-        menuLinks.style.borderBottom = '1px solid var(--color-border)';
-        menuLinks.style.gap = '1.25rem';
-        menuLinks.style.boxShadow = '0 10px 25px rgba(0,0,0,0.05)';
+        menuLinks.classList.toggle('active');
       });
 
       // Initiations

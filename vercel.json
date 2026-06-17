@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "framework": null,
+  "buildCommand": "echo 'Static build bypass'",
+  "installCommand": "echo 'Static install bypass'",
+  "outputDirectory": "."
+}
